@@ -4,12 +4,12 @@ import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className="app">
+    <main className="app">
       <Head>
         <title>Interactive Rating Component</title>
       </Head>
       <Component {...pageProps} />
-    </div>
+    </main>
   );
 }
 
