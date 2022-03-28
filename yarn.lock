@@ -200,6 +200,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/lodash.range@npm:^3.2.6":
+  version: 3.2.6
+  resolution: "@types/lodash.range@npm:3.2.6"
+  dependencies:
+    "@types/lodash": "*"
+  checksum: a24e8bf0920e9eb37369c66ca7dd257e5e6e62d495f031c4edae7e78f928d6cec3b42483e0c0d2dbb0826c22b15df0ce509b5440686cc71c91a17c4db5658eb4
+  languageName: node
+  linkType: hard
+
+"@types/lodash@npm:*":
+  version: 4.14.180
+  resolution: "@types/lodash@npm:4.14.180"
+  checksum: fc42ae3473695cac6e91553f832fef8eb51a31c1c0381cafa81b00dc3efe18e279786bdda77caf0b90a8340ba2ba7aa46ae6541d69870565f775d04c89128bc1
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:17.0.23":
   version: 17.0.23
   resolution: "@types/node@npm:17.0.23"
@@ -1460,6 +1476,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.range@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "lodash.range@npm:3.2.0"
+  checksum: 9355140c0ae66c51e1828fe6b4aa64bfc986bcf3afeae720904cc89e0b15ec8d5e174454cbbf087485447e67e4b1d9000d7e53e89c7deea892d3c0b472461035
+  languageName: node
+  linkType: hard
+
 "loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
@@ -2042,11 +2065,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "solution@workspace:."
   dependencies:
+    "@types/lodash.range": ^3.2.6
     "@types/node": 17.0.23
     "@types/react": 17.0.43
     "@types/react-dom": 17.0.14
     eslint: 8.12.0
     eslint-config-next: 12.1.1
+    lodash.range: ^3.2.0
     next: 12.1.1
     react: 17.0.2
     react-dom: 17.0.2
