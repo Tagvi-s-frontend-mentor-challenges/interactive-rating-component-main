@@ -15,6 +15,10 @@ body {
 :root {
   font-size: 100%;
 }
+::selection {
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+}
 
 .app {
   width: 100vw;
