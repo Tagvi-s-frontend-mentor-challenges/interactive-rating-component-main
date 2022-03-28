@@ -1,6 +1,6 @@
 import range from "lodash.range";
 import { useState } from "react";
-import styles from "../styles/Selection.module.css";
+import styles from "@styles/Selection.module.css";
 
 export default function Selection({
   onSubmit,
