@@ -1,8 +1,6 @@
-import range from "lodash.range";
-import { useState } from "react";
-import styles from "../styles/Selection.module.css";
+import styles from "@styles/Selection.module.css";
 import Image from "next/image";
-import Selection from "./Selection";
+import Selection from "@components/Selection";
 import { motion } from "framer-motion";
 
 export default function Rating({

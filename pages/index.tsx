@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
-import styles from "../styles/Home.module.css";
+import styles from "@styles/Home.module.css";
 import { useState } from "react";
-import Rating from "../components/Rating";
-import ThankYou from "../components/ThankYou";
-import { motion, AnimatePresence } from "framer-motion";
+import Rating from "@components/Rating";
+import ThankYou from "@components/ThankYou";
+import { AnimatePresence } from "framer-motion";
 
 const Home: NextPage = () => {
   const [submitted, setSubmitted] = useState<null | number>(null);

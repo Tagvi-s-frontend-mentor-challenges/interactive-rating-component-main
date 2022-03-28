@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../styles/ThankYou.module.css";
+import styles from "@styles/ThankYou.module.css";
 import { motion } from "framer-motion";
 
 export default function ThankYou({ selected }: { selected: number }) {
