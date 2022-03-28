@@ -11,6 +11,7 @@
   aspect-ratio: 1.5/1;
   position: relative;
   pointer-events: none;
+  user-select: none;
 }
 .main p:nth-of-type(1) {
   color: hsl(25, 97%, 53%);
