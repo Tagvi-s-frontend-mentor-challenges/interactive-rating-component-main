@@ -33,11 +33,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@types/lodash.range", "npm:3.2.6"],\
             ["@types/node", "npm:17.0.23"],\
             ["@types/react", "npm:17.0.43"],\
             ["@types/react-dom", "npm:17.0.14"],\
             ["eslint", "npm:8.12.0"],\
             ["eslint-config-next", "virtual:6a3c4563db5aa698d4ae036b42e086bc3af9bb0e68de46f2b391cfcc6db0ec4583c90a7a65878e26831d246fb3b206af7abb78162c3327c499ba454a99446e7c#npm:12.1.1"],\
+            ["lodash.range", "npm:3.2.0"],\
             ["next", "virtual:6a3c4563db5aa698d4ae036b42e086bc3af9bb0e68de46f2b391cfcc6db0ec4583c90a7a65878e26831d246fb3b206af7abb78162c3327c499ba454a99446e7c#npm:12.1.1"],\
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:6a3c4563db5aa698d4ae036b42e086bc3af9bb0e68de46f2b391cfcc6db0ec4583c90a7a65878e26831d246fb3b206af7abb78162c3327c499ba454a99446e7c#npm:17.0.2"],\
@@ -278,6 +280,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-json5-npm-0.0.29-f63a7916bd-e60b153664.zip/node_modules/@types/json5/",\
           "packageDependencies": [\
             ["@types/json5", "npm:0.0.29"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/lodash", [\
+        ["npm:4.14.180", {\
+          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.180-37662c62d4-fc42ae3473.zip/node_modules/@types/lodash/",\
+          "packageDependencies": [\
+            ["@types/lodash", "npm:4.14.180"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/lodash.range", [\
+        ["npm:3.2.6", {\
+          "packageLocation": "./.yarn/cache/@types-lodash.range-npm-3.2.6-607ec01262-a24e8bf092.zip/node_modules/@types/lodash.range/",\
+          "packageDependencies": [\
+            ["@types/lodash.range", "npm:3.2.6"],\
+            ["@types/lodash", "npm:4.14.180"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1881,6 +1902,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["lodash.range", [\
+        ["npm:3.2.0", {\
+          "packageLocation": "./.yarn/cache/lodash.range-npm-3.2.0-9b6cd0cc6c-9355140c0a.zip/node_modules/lodash.range/",\
+          "packageDependencies": [\
+            ["lodash.range", "npm:3.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["loose-envify", [\
         ["npm:1.4.0", {\
           "packageLocation": "./.yarn/cache/loose-envify-npm-1.4.0-6307b72ccf-6517e24e0c.zip/node_modules/loose-envify/",\
@@ -2507,11 +2537,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["solution", "workspace:."],\
+            ["@types/lodash.range", "npm:3.2.6"],\
             ["@types/node", "npm:17.0.23"],\
             ["@types/react", "npm:17.0.43"],\
             ["@types/react-dom", "npm:17.0.14"],\
             ["eslint", "npm:8.12.0"],\
             ["eslint-config-next", "virtual:6a3c4563db5aa698d4ae036b42e086bc3af9bb0e68de46f2b391cfcc6db0ec4583c90a7a65878e26831d246fb3b206af7abb78162c3327c499ba454a99446e7c#npm:12.1.1"],\
+            ["lodash.range", "npm:3.2.0"],\
             ["next", "virtual:6a3c4563db5aa698d4ae036b42e086bc3af9bb0e68de46f2b391cfcc6db0ec4583c90a7a65878e26831d246fb3b206af7abb78162c3327c499ba454a99446e7c#npm:12.1.1"],\
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:6a3c4563db5aa698d4ae036b42e086bc3af9bb0e68de46f2b391cfcc6db0ec4583c90a7a65878e26831d246fb3b206af7abb78162c3327c499ba454a99446e7c#npm:17.0.2"],\
