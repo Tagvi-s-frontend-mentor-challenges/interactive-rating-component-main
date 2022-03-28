@@ -1,8 +1,14 @@
 import Image from "next/image";
 import styles from "../styles/ThankYou.module.css";
+import { motion } from "framer-motion";
+
 export default function ThankYou({ selected }: { selected: number }) {
   return (
-    <div className={styles.main}>
+    <motion.div
+      className={styles.main}
+      initial={{ x: "100%" }}
+      animate={{ x: "0" }}
+    >
       <div className={styles.imageContainer}>
         <Image src="/illustration-thank-you.svg" alt="" layout="fill"></Image>
       </div>
@@ -12,6 +18,6 @@ export default function ThankYou({ selected }: { selected: number }) {
         We appreciate you taking the time to give a rating. If you ever need
         more support, don’t hesitate to get in touch!
       </p>
-    </div>
+    </motion.div>
   );
 }

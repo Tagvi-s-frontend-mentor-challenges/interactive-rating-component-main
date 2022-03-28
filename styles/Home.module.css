@@ -4,5 +4,6 @@
   background-color: hsl(213, 19%, 18%);
   padding: calc(min(100%, var(--max-width)) / 10);
   border-radius: 10px;
+  overflow: hidden;
   max-width: var(--max-width);
 }

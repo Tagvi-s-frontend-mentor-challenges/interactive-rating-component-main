@@ -3,6 +3,7 @@ import { useState } from "react";
 import styles from "../styles/Selection.module.css";
 import Image from "next/image";
 import Selection from "./Selection";
+import { motion } from "framer-motion";
 
 export default function Rating({
   onSubmit,
@@ -10,7 +11,7 @@ export default function Rating({
   onSubmit: (x: number) => void;
 }) {
   return (
-    <div className={styles.main}>
+    <motion.div className={styles.main} exit={{ x: "-200%" }}>
       <div className={styles.starContainer}>
         <div className={styles.star} aria-hidden>
           <Image src="/icon-star.svg" layout="fill" objectFit="cover" alt="" />
@@ -22,6 +23,6 @@ export default function Rating({
         appreciated to help us improve our offering!
       </p>
       <Selection onSubmit={onSubmit} />
-    </div>
+    </motion.div>
   );
 }
